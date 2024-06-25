@@ -1,0 +1,19 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "search.exclude": {
+    "**/.venv": true,
+  },
+  "advancedNewFile.exclude": {
+    "**/.venv": true,
+    "**/node_modules": true,
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  }
+}
